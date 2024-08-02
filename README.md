@@ -28,7 +28,7 @@ Welcome to my portfolio website, a meticulously crafted digital space designed t
 
 ```bash
 # fork the repo & clone it
-git clone https://github.com/your-username/rdsx.dev
+(https://github.com/abhishekmanhar/abhishekmnhr.dev.git)
 
 # install dependencies
 bun install
