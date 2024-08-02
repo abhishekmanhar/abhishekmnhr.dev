@@ -1,8 +1,6 @@
-# Portfolio website template
+# Portfolio website 
 
-## Demo
-
-You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/preview.png)](https://rdsx.dev)
+Welcome to my portfolio website, a meticulously crafted digital space designed to showcase my work and share my thoughts through blog posts and project highlights. This website is built with a focus on modern web standards, ensuring it is fast, accessible, and delightful to use across all devices.
 
 ## Features
 
@@ -15,8 +13,6 @@ You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/
 - Sitemap generation
 - Analytics integration
 
-[pagespeed.web.dev <br /><img width="500px" src="https://github.com/rudrodip/rdsx.dev/assets/77154365/7e02fb43-4a0a-4959-b7e3-61df0ca82d0f" />](https://pagespeed.web.dev/analysis/https-www-rdsx-dev/5dbg63wkcn?form_factor=desktop)
-
 ## Tech Stack
 
 - **Language**: TypeScript
@@ -25,7 +21,6 @@ You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/
 - **Content**: MDX
 - **Content Management**: Github
 - **Content Generation**: [Velite](https://velite.js.org/)
-- **RSS Generation**: [feed](https://github.com/jpmonette/feed)
 - **Deployment**: Vercel
 - **Analytics**: Vercel Analytics, Vercel Speed Analytics
 
@@ -67,7 +62,6 @@ Write your blog posts, projects, tils in the `content` directory.
  └── velite.config.ts
 ```
 
-Read the [velite docs](https://velite.js.org/guide/quick-start) for more information on how to use it.
 
 ## Personalization
 
