@@ -1,6 +1,6 @@
 # Portfolio website 
 
-
+Welcome to my portfolio website, a meticulously crafted digital space designed to showcase my work and share my thoughts through blog posts and project highlights. This website is built with a focus on modern web standards, ensuring it is fast, accessible, and delightful to use across all devices.
 
 ## Features
 
