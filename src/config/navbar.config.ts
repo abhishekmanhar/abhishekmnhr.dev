@@ -10,11 +10,8 @@ export const navbarConfig: NavItem[] = [
     url: "/experience"
   },
   {
-    title: "TIL",
+    title: "Education",
     url: "/til"
   },
-  {
-    title: "Education",
-    url: "/education",
-  }
+  
 ];
