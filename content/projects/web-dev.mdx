@@ -1,0 +1,97 @@
+---
+title: Web Development Compiler
+description: The Web Development Compiler is a versatile tool built with modern technologies like React.js, Vite, TypeScript, and JavaScript. This compiler empowers developers by providing a seamless environment for writing, compiling, and deploying web applications. Leveraging the power of React.js for UI components and Vite for lightning-fast development, it offers a streamlined experience for building robust web solutions.
+tags: ["React.JS","JavaScript", "TypeScript", "Tailwind CSS", "SCSS", "Vite", "HTML", ]
+date: 2023-08-09
+image: "./assets/compiler.png"
+imageDark: "./assets/compiler.png"
+links:
+  [
+    { name: "GitHub", url: "https://github.com/abhishekmanhar/Web-development-compiler" },
+    {
+      name: "Website",
+      url: "https://web-development-compiler.vercel.app/",
+    },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/abhishek-manhar-developer/" },
+    { name: "Instagram", url: "https://www.instagram.com/abhishekmnhr/" },
+  ]
+---
+
+<Callout>
+
+## Overview
+The Web Development Compiler is a state-of-the-art tool designed to revolutionize the way developers build web applications. Leveraging cutting-edge technologies such as React.js, Vite, TypeScript, and JavaScript, this compiler offers an unparalleled environment for writing, compiling, and deploying web solutions.
+</Callout>
+
+## Features
+
+1. **React.js for UI Components**:
+    - Utilize the React library to create reusable UI components, making development more efficient and the codebase more maintainable.
+    
+2. **Vite for Fast Development**:
+    - Experience lightning-fast development with Vite, which provides rapid hot module replacement (HMR) and a fast build process.
+    
+3. **TypeScript Integration**:
+    - Enjoy the benefits of TypeScript for type-safe development, catching errors early in the development process and improving code quality.
+
+4. **JavaScript Compatibility**:
+    - Seamlessly integrate JavaScript code alongside TypeScript, leveraging the best of both worlds.
+
+5. **ESLint Configuration**:
+    - Enforce coding standards and catch potential issues early with an advanced ESLint setup tailored for both JavaScript and TypeScript.
+
+
+
+
+### Getting Started
+
+This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
+
+#### Plugins
+
+Currently, two official plugins are available for Fast Refresh:
+
+- @vitejs/plugin-react: Uses Babel for Fast Refresh.
+- @vitejs/plugin-react-swc: Uses SWC for Fast Refresh.
+
+##### Expanding the ESLint Configuration
+
+For developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+
+1. **Configure the top-level `parserOptions` property**:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+};
+```
+2. **Update ESLint Plugins**:
+
+    - Replace plugin:@typescript-eslint/recommended with plugin:@typescript-eslint/recommended-type-checked or plugin:@typescript-eslint/strict-type-checked.
+
+    - Optionally, add plugin:@typescript-eslint/stylistic-type-checked.
+
+3. **Install and Configure React Plugins**:
+
+    - Install `eslint-plugin-react`.
+
+    - Add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the extends list in your ESLint configuration.
+    
+
+### Benefits
+
+- **Improved Developer Experience**: The combination of React, Vite, and TypeScript provides a powerful and efficient development environment.
+
+- **Enhanced Code Quality**: TypeScript and ESLint configurations help in maintaining high code quality and catching errors early.
+
+- **Fast Iteration**: Vite's HMR and rapid build times allow for quick iterations and immediate feedback during development.
+
+<Callout>
+By utilizing this Web Development Compiler, developers can build modern, high-performance web applications with ease, taking advantage of the latest advancements in web development technology.
+</Callout>
