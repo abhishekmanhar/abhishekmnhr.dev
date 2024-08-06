@@ -8,7 +8,7 @@ export const portfolioConfig: Portfolio = {
   links: {
     github: "https://github.com/abhishekmanhar",
     twitter: "https://x.com/abhishekmnhr?t=uRnxwO-L7ZK64FIvjShNRA&s=09&mx=2",
-    mail: "mailto:abhishekmanhr004@gmail.com",
+    mail: "mailto:abhishekmanhar004@gmail.com",
     instagram: "https://www.instagram.com/abhishekmnhr/",
     linkedin: "https://www.linkedin.com/in/abhishek-manhar-developer/",
   }
