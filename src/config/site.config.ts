@@ -10,12 +10,12 @@ export const siteConfig: Site = {
     "mnhr",
     "abhimnhr",
     "abhishekmnhr",
-    "abhishekmnhr.dev",
+    "abhishekmnhr.vercel.app",
     "github.com/abhishekmanhar",
     "Abhishek",
     "programmer",
     "developer",
-    "engineer",
+    "abhishekmanhar",
     "Full Stack Developer",
     "Dion",
     "Cogito",
@@ -28,7 +28,7 @@ export const siteConfig: Site = {
   },
   ogImage: "https://rdsx.dev/og.png",
   links: {
-    x: "https://x.com/rds_agi",
+    x: "https://x.com/abhishekmnhr?t=uRnxwO-L7ZK64FIvjShNRA&s=09&mx=2",
     github: "https://github.com/abhishekmanhar",
   }
 }
