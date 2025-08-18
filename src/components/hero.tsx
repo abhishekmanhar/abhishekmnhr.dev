@@ -38,7 +38,7 @@ export default function Hero() {
         </p>
         <p>
           <span className="font-semibold text-primary/90">Database:</span> MongoDB,
-           PostgreSQl, MySQL
+           PostgreSQl, MySQL, Supabase
         </p>
         <p>
           <span className="font-semibold text-primary/90">Tools:</span> Vercel, VScode, 
